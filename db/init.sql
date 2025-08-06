@@ -1,0 +1,9 @@
+CREATE DATABASE flaskdb;
+
+USE flaskdb;
+
+CREATE TABLE visitors (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    visit_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
